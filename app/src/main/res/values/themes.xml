@@ -1,9 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Tema base de la aplicación. -->
     <style name="Base.Theme.DiarioDeLectura" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorOnPrimary">@color/sobre_primario</item>
+        <item name="android:windowBackground">@color/fondo_pantalla</item>
     </style>
 
     <style name="Theme.DiarioDeLectura" parent="Base.Theme.DiarioDeLectura" />
+
+    <!-- Estilo propio para los botones principales. -->
+    <style name="Widget.DiarioDeLectura.BotonPrincipal" parent="Widget.Material3.Button">
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
 </resources>
