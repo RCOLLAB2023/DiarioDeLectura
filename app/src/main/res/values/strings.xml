@@ -1,20 +1,70 @@
 <resources>
-    <string name="app_name">Diario de Lectura</string>
-    <string name="slogan_app">Guarda tus lecturas.</string>
-    <string name="desc_logo">Logo de Diario de Lectura</string>
-    <string name="hint_correo">Correo electrónico</string>
-    <string name="hint_clave">Contraseña</string>
-    <string name="btn_ingresar">Ingresar</string>
-    <string name="txt_ir_registro">¿No tienes cuenta? Regístrate</string>
-    <string name="titulo_registro">Registro</string>
-    <string name="hint_nombre">Nombre</string>
-    <string name="hint_repetir_clave">Repetir contraseña</string>
-    <string name="pregunta_genero">¿Qué género lees más?</string>
-    <string name="genero_ficcion">Ficción</string>
-    <string name="genero_no_ficcion">No ficción</string>
-    <string name="genero_fantasia">Fantasía</string>
-    <string name="genero_otro">Otro</string>
-    <string name="chk_terminos">Acepto los términos y condiciones</string>
-    <string name="btn_crear_cuenta">Crear cuenta</string>
-    <string name="txt_ir_login">¿Ya tienes cuenta? Ingresa</string>
+        <string name="app_name">Diario de Lectura</string>
+        <string name="slogan_app">Guarda tus lecturas.</string>
+        <string name="desc_logo">Logo de Diario de Lectura</string>
+        <string name="hint_correo">Correo electrónico</string>
+        <string name="hint_clave">Contraseña</string>
+        <string name="btn_ingresar">Ingresar</string>
+        <string name="txt_ir_registro">¿No tienes cuenta? Regístrate</string>
+
+        <string name="titulo_registro">Registro</string>
+        <string name="hint_nombre">Nombre</string>
+        <string name="hint_repetir_clave">Repetir contraseña</string>
+        <string name="pregunta_genero">¿Qué género lees más?</string>
+        <string name="genero_ficcion">Ficción</string>
+        <string name="genero_no_ficcion">No ficción</string>
+        <string name="genero_fantasia">Fantasía</string>
+        <string name="genero_otro">Otro</string>
+        <string name="chk_terminos">Acepto los términos y condiciones</string>
+        <string name="btn_crear_cuenta">Crear cuenta</string>
+        <string name="txt_ir_login">¿Ya tienes cuenta? Ingresa</string>
+
+        <string name="titulo_lista">Mis libros</string>
+        <string name="btn_agregar">+</string>
+        <string name="desc_btn_agregar">Agregar libro nuevo</string>
+        <string name="btn_ia">IA</string>
+        <string name="desc_btn_ia">Pedir recomendación a la IA</string>
+        <string name="libro1_titulo">La casa del faro</string>
+        <string name="libro1_autor">Mara Ventura</string>
+        <string name="libro1_nota">★ 5</string>
+        <string name="libro2_titulo">Cartas desde el sur</string>
+        <string name="libro2_autor">Tomás Arce</string>
+        <string name="libro2_nota">★ 4</string>
+        <string name="libro3_titulo">El mapa de las nubes</string>
+        <string name="libro3_autor">Inés Valdivia</string>
+        <string name="libro3_nota">★ 3</string>
+
+        <string name="titulo_agregar">Agregar libro</string>
+        <string name="hint_titulo_libro">Título del libro</string>
+        <string name="hint_autor">Autor</string>
+        <string name="etiqueta_genero">Género</string>
+        <string name="etiqueta_nota">Nota</string>
+        <string name="hint_resena">Reseña</string>
+        <string name="sw_favorito">Marcar como favorito</string>
+        <string name="btn_guardar_libro">Guardar libro</string>
+        <string-array name="generos">
+            <item>Ficción</item>
+            <item>No ficción</item>
+            <item>Fantasía</item>
+            <item>Otro</item>
+        </string-array>
+        <string-array name="calificaciones">
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+            <item>5</item>
+        </string-array>
+
+        <string name="detalle_genero">Género: Ficción</string>
+        <string name="detalle_nota">Nota: 5 de 5</string>
+        <string name="detalle_resena">Una novela tranquila sobre una familia inventada que cuida un faro aislado. Me gustó el ritmo lento, los paisajes y el final inesperado. La recomendaría para una tarde de lluvia.</string>
+        <string name="chk_leido">Marcar como leído</string>
+        <string name="btn_editar">Editar</string>
+        <string name="btn_eliminar">Eliminar</string>
+
+        <string name="titulo_ia">Recomendación con IA</string>
+        <string name="hint_prompt_ia">¿Qué te gustaría leer?</string>
+        <string name="btn_recomendar_ia">Recomendar</string>
+        <string name="respuesta_ia_ejemplo">Según tus lecturas, te recomiendo «El archivo de las mareas», de Lía Fontana. Es una novela de misterio ambientada en un pueblo costero, con el ritmo pausado de los libros que calificaste con nota alta.</string>
 </resources>
