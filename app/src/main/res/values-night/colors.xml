@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primario">#E0A878</color>
-    <color name="sobre_primario">#2B1A0E</color>
-    <color name="fondo_pantalla">#1A1511</color>
-    <color name="fondo_tarjeta">#261F19</color>
-    <color name="texto_principal">#F3EADF</color>
-    <color name="texto_secundario">#BDB1A5</color>
-    <color name="acento">#F0B94A</color>
+    <color name="primario">#8ECAE6</color>
+    <color name="primario_oscuro">#5FA8D3</color>
+    <color name="fondo_pantalla">#121417</color>
+    <color name="fondo_tarjeta">#1E2228</color>
+    <color name="texto_principal">#E6E8EC</color>
+    <color name="texto_secundario">#CAC4D0</color>
+    <color name="texto_boton">#121417</color>
+    <color name="sobre_primario">#121417</color>
 </resources>

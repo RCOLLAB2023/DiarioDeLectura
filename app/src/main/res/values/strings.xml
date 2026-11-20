@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Diario de Lectura</string>
+    <string name="slogan_app">Guarda tus Lecturas.</string>
+    <string name="desc_logo">Logo de Diario de Lectura</string>
+    <string name="hint_correo">Correo electrónico</string>
+    <string name="hint_clave">Contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="txt_ir_registro">¿No tienes cuenta? Regístrate</string>
 </resources>
