@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primario">#7A4B2A</color>
+    <color name="sobre_primario">#FFFFFF</color>
+    <color name="fondo_pantalla">#FBF6EF</color>
+    <color name="fondo_tarjeta">#FFFFFF</color>
+    <color name="texto_principal">#2B2118</color>
+    <color name="texto_secundario">#6E6259</color>
+    <color name="acento">#C98A1B</color>
 </resources>
