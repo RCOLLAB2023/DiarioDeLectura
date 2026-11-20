@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DiarioDeLectura">
         <activity
+            android:name=".RecomendacionIaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleLibroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AgregarLibroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListaLibrosActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegistroActivity"
             android:exported="false" />
         <activity

@@ -8,4 +8,5 @@
     <color name="texto_secundario">#CAC4D0</color>
     <color name="texto_boton">#121417</color>
     <color name="sobre_primario">#121417</color>
+    <color name="acento">#E3C26A</color>
 </resources>
