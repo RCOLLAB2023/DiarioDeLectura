@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtTituloRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_registro"
+            android:textColor="@color/texto_principal"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:autofillHints="name"
+            android:hint="@string/hint_nombre"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@color/texto_principal"
+            android:textColorHint="@color/texto_secundario" />
+
+        <EditText
+            android:id="@+id/edtCorreoRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autofillHints="emailAddress"
+            android:hint="@string/hint_correo"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColor="@color/texto_principal"
+            android:textColorHint="@color/texto_secundario" />
+
+        <EditText
+            android:id="@+id/edtClaveRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autofillHints="newPassword"
+            android:hint="@string/hint_clave"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="@color/texto_principal"
+            android:textColorHint="@color/texto_secundario" />
+
+        <EditText
+            android:id="@+id/edtRepetirClave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autofillHints="newPassword"
+            android:hint="@string/hint_repetir_clave"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="@color/texto_principal"
+            android:textColorHint="@color/texto_secundario" />
+
+        <TextView
+            android:id="@+id/txtPreguntaGenero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/pregunta_genero"
+            android:textColor="@color/texto_principal"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgGeneroLiterario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbFiccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/genero_ficcion"
+                android:textColor="@color/texto_principal" />
+
+            <RadioButton
+                android:id="@+id/rbNoFiccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/genero_no_ficcion"
+                android:textColor="@color/texto_principal" />
+
+            <RadioButton
+                android:id="@+id/rbFantasia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/genero_fantasia"
+                android:textColor="@color/texto_principal" />
+
+            <RadioButton
+                android:id="@+id/rbOtro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/genero_otro"
+                android:textColor="@color/texto_principal" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/chkTerminos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:minHeight="48dp"
+            android:text="@string/chk_terminos"
+            android:textColor="@color/texto_principal" />
+
+        <Button
+            android:id="@+id/btnCrearCuenta"
+            style="@style/Widget.DiarioDeLectura.BotonPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/btn_crear_cuenta" />
+
+        <TextView
+            android:id="@+id/txtIrLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:text="@string/txt_ir_login"
+            android:textColor="@color/primario"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

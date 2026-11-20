@@ -1,9 +1,20 @@
 <resources>
     <string name="app_name">Diario de Lectura</string>
-    <string name="slogan_app">Guarda tus Lecturas.</string>
+    <string name="slogan_app">Guarda tus lecturas.</string>
     <string name="desc_logo">Logo de Diario de Lectura</string>
     <string name="hint_correo">Correo electrónico</string>
     <string name="hint_clave">Contraseña</string>
     <string name="btn_ingresar">Ingresar</string>
     <string name="txt_ir_registro">¿No tienes cuenta? Regístrate</string>
+    <string name="titulo_registro">Registro</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_repetir_clave">Repetir contraseña</string>
+    <string name="pregunta_genero">¿Qué género lees más?</string>
+    <string name="genero_ficcion">Ficción</string>
+    <string name="genero_no_ficcion">No ficción</string>
+    <string name="genero_fantasia">Fantasía</string>
+    <string name="genero_otro">Otro</string>
+    <string name="chk_terminos">Acepto los términos y condiciones</string>
+    <string name="btn_crear_cuenta">Crear cuenta</string>
+    <string name="txt_ir_login">¿Ya tienes cuenta? Ingresa</string>
 </resources>
