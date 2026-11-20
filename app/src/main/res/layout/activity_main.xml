@@ -19,9 +19,9 @@
         <ImageView
             android:id="@+id/imgLogo"
             android:layout_width="96dp"
-            android:layout_height="96dp"
+            android:layout_height="99dp"
             android:contentDescription="@string/desc_logo"
-            android:src="@drawable/ic_logo" />
+            android:src="@drawable/log_diario" />
 
         <TextView
             android:id="@+id/txtTituloApp"
